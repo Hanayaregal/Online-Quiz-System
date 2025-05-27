@@ -50,13 +50,13 @@ Include screenshots of your app here (login page, quiz page, admin page, etc.)
 
 ![4](https://github.com/user-attachments/assets/fdbbfffb-d541-4f90-94a6-86af07b2ace7)
 
-![6-1](https://github.com/user-attachments/assets/c16fbe57-adb0-4ea2-998d-0c067205b81d)
-
 ![5](https://github.com/user-attachments/assets/b30dd4ac-fe2f-49cb-894d-b412c6bd6bfe)
 
 ![6](https://github.com/user-attachments/assets/adee96b7-de83-414d-9fe6-335258dd10a5)
 
 ![7](https://github.com/user-attachments/assets/8a320204-090f-47ca-abf8-e8f9c672fa64)
+
+![6-1](https://github.com/user-attachments/assets/c16fbe57-adb0-4ea2-998d-0c067205b81d)
 
 ![8](https://github.com/user-attachments/assets/f7598b5e-8770-4569-8874-62b80f5573d5)
 
