@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    >
+
+    <EditText android:id="@+id/editQuestion"
+        android:hint="Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"/>
+    <EditText android:id="@+id/editOption1" android:hint="Option 1"  android:layout_width="match_parent" android:layout_height="wrap_content"   android:layout_marginBottom="20dp" android:textSize="25sp"/>
+    <EditText android:id="@+id/editOption2" android:hint="Option 2" android:layout_width="match_parent" android:layout_height="wrap_content"   android:layout_marginBottom="20dp" android:textSize="25sp"/>
+    <EditText android:id="@+id/editOption3" android:hint="Option 3" android:layout_width="match_parent" android:layout_height="wrap_content"   android:layout_marginBottom="20dp" android:textSize="25sp"/>
+    <EditText android:id="@+id/editOption4" android:hint="Option 4" android:layout_width="match_parent" android:layout_height="wrap_content"   android:layout_marginBottom="20dp" android:textSize="25sp"/>
+    <EditText android:id="@+id/editAnswer" android:hint="Answer" android:layout_width="match_parent" android:layout_height="wrap_content"   android:layout_marginBottom="20dp" android:textSize="30sp"/>
+    <Button android:id="@+id/btnUpdate" android:text="Update Question" android:layout_width="match_parent" android:layout_height="70dp"  android:layout_marginBottom="20dp" android:backgroundTint="#05F00E" android:textSize="30sp"/>
+    <Button android:id="@+id/btndelete" android:text="Delete Question" android:layout_width="match_parent" android:layout_height="70dp" android:backgroundTint="#F44336" android:textSize="30sp"/>
+</LinearLayout>

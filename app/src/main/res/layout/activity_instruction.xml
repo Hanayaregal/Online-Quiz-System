@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/download"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text=" Please read carefully before starting the quiz:\n1. Make sure your phone is on silent mode 📴.\n2. Do not close the app during the quiz.\n3. Total Questions:  10 \n4. Time Allowed: 10 minutes ⏰\n5. Each question has only one correct answer.\nClick below when you're ready to begin.\n         GOOD LUCK!!!!"
+        android:lineSpacingExtra="10dp" />
+
+    <Button
+        android:id="@+id/startQuizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Start Quiz"
+        android:textAllCaps="false"
+        android:textSize="26sp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@android:color/holo_blue_light" />
+</LinearLayout>

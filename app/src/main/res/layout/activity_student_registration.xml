@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRegistration"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Registration \n                Form "
+        android:textColor="#1CE625"
+        android:textSize="35sp"
+        android:layout_marginBottom="40dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="ID Number:"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/idno"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="enter your Student ID "
+            android:background="@android:drawable/edit_text"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/studname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:hint="enter your Full Name"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="enter your password"
+            android:inputType="numberPassword"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm :"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/btnconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Confirm password"
+            android:inputType="numberPassword"
+            android:background="@android:drawable/edit_text"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="University:"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <Spinner
+            android:id="@+id/unvi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="enter your University"
+            android:inputType="text"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <Spinner
+            android:id="@+id/dept"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="enter your Full Name"
+            android:inputType="text"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Register"
+        android:textStyle="bold"
+       android:layout_gravity="end"
+        android:textSize="30dp"
+        android:backgroundTint="#1CE625"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you already registered?"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuestion"
+    android:padding="25dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Question"
+            android:textColor="#23DAE4"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/question_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 01"
+            android:textColor="#C10AE0"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="insert the question here"
+        android:background="@android:drawable/edit_text"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" choice1"
+            android:textColor="#08197A"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+    <EditText
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the choice"
+        android:textSize="30dp"
+        android:background="@android:drawable/edit_text"
+
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice2"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the choice"
+        android:textSize="30dp"
+        android:background="@android:drawable/edit_text"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice3"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        />
+    <EditText
+        android:id="@+id/C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the choice"
+        android:textSize="30dp"
+        android:background="@android:drawable/edit_text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice4"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        />
+    <EditText
+        android:id="@+id/D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter the choice"
+        android:textSize="30dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Answer"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        />
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter The Answer"
+        android:textSize="30dp"
+        android:background="@android:drawable/edit_text"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/clear"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:text="Clear"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:backgroundTint="#CC370D"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="save"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#2196F3"
+            />
+    </LinearLayout>
+
+</LinearLayout>

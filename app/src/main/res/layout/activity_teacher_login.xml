@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherLogin"
+    android:orientation="vertical"
+    android:background="#CACBD7">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/log"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/TeacherUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="user name "
+            android:inputType="text"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/TeacherPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="enter your Password"
+            android:inputType="text"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/TeacherLogin"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:textSize="35dp"
+        android:backgroundTint="#0AAD9E"
+        android:textColor="@color/white"
+        />
+        </LinearLayout>
+
+</LinearLayout>

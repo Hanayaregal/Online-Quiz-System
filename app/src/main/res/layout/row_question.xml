@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginLeft="7dp"
+    android:backgroundTint="#1C80D0">
+
+    <TextView android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView android:id="@+id/tvChoices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choices"
+        android:textColor="@color/white"
+        />
+
+    <TextView android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:textColor="#FFEB3B"
+        android:textStyle="italic"/>
+</LinearLayout>

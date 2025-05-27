@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteQuestion"
+    android:orientation="vertical"
+    android:padding="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+        <EditText
+            android:id="@+id/del_Qid"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:hint="Question id"
+            android:textSize="30dp"
+            android:inputType="number"
+            android:background="@android:drawable/edit_text"
+            android:textStyle="bold"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/del_search"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="search"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#09AAF6"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/del_Question"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice1"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/del_A"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice2"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/del_B"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice3"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:id="@+id/del_C"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" choice4"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/del_D"
+        android:textColor="#08197A"
+        android:textSize="30dp"
+        android:layout_marginBottom="25dp"
+        />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/del_delete"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="delete"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:backgroundTint="#CA2F41"/>
+</LinearLayout>
